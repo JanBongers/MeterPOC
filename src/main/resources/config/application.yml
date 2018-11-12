@@ -1,0 +1,24 @@
+cred:
+  base-url: http://127.0.0.1
+  username: user
+  password: pass
+
+logging:
+  level:
+    root: INFO
+    nl.bongers: DEBUG
+
+spring:
+  cloud:
+      stream:
+        bindings:
+          asset_inboeken_verzoek:
+            binder: rabbit
+            destination: asset.inboeken.verzoek
+            contentType: application/json
+            group: asset-service
+          asset_geplaatst_verzoek:
+            binder: rabbit
+            destination: asset.geplaatst.verzoek
+            contentType: application/json
+            group: asset-service

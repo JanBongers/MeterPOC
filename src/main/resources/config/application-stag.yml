@@ -1,0 +1,5 @@
+spring:
+  rabbitmq:
+    host: #TODO: stag rabbitmq ip toevoegen
+    username: #TODO stag username toevoegen
+    password: #TODO stag password toevoegen

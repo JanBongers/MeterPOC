@@ -1,0 +1,10 @@
+spring:
+  rabbitmq:
+    host: 10.47.13.7
+    username: rabbit
+    password: 0EUhm39Ao2LcTVtDtsugjAeDi2Q6Ydr1
+
+logging:
+  level:
+    root: INFO
+    nl.bongers: DEBUG

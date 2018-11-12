@@ -1,0 +1,5 @@
+spring:
+  rabbitmq:
+    host: 10.47.11.5
+    username: rabbit
+    password: LGZUqVv3AJBxY2TSEATq3nNJU8jCXsHJ
