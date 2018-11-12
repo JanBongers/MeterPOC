@@ -18,7 +18,7 @@
         <java.version>1.8</java.version>
         <commons-lang3.version>3.5</commons-lang3.version>
         <assertj-core.version>3.8.0</assertj-core.version>
-        <jackson.version>2.8.6</jackson.version>
+        <jackson.version>2.8.11.1</jackson.version>
         <logstash.version>4.11</logstash.version>
     </properties>
 
